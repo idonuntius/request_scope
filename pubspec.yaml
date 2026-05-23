@@ -1,0 +1,11 @@
+name: request_scope_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.11.5
+
+workspace:
+  - packages/request_scope
+  - packages/request_scope_dio
+  - packages/request_scope_extension
+  - example

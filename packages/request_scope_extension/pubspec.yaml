@@ -1,0 +1,31 @@
+name: request_scope_extension
+description: >-
+  Flutter DevTools Extension UI for request_scope. Hosts the network inspector
+  rendered inside Flutter DevTools.
+publish_to: none
+version: 0.1.0
+
+resolution: workspace
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.19.0"
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  devtools_app_shared: ^0.3.0
+  devtools_extensions: ^0.3.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  request_scope:
+    path: ../request_scope
+  vm_service: ^14.0.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

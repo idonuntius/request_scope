@@ -1,0 +1,32 @@
+name: request_scope_dio
+description: >-
+  Dio v5 interceptor for request_scope. Streams HTTP request, response and
+  error events to the request_scope DevTools extension in real time.
+version: 0.1.0
+homepage: https://github.com/idonuntius/request_scope
+repository: https://github.com/idonuntius/request_scope
+issue_tracker: https://github.com/idonuntius/request_scope/issues
+
+topics:
+  - devtools
+  - devtools-extension
+  - dio
+  - http
+  - interceptor
+
+resolution: workspace
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.19.0"
+
+dependencies:
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+  request_scope: ^0.1.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter

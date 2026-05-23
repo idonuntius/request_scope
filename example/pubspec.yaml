@@ -1,0 +1,29 @@
+name: request_scope_example
+description: >-
+  Example Flutter app demonstrating request_scope with the Dio interceptor.
+publish_to: none
+version: 0.1.0+1
+
+resolution: workspace
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.19.0"
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+  request_scope:
+    path: ../packages/request_scope
+  request_scope_dio:
+    path: ../packages/request_scope_dio
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,39 @@
+name: request_scope
+description: >-
+  Flutter DevTools Extension that inspects HTTP traffic in real time. Provides
+  the core models, events and DevTools service extension used by adapters such
+  as request_scope_dio.
+version: 0.1.0
+homepage: https://github.com/idonuntius/request_scope
+repository: https://github.com/idonuntius/request_scope
+issue_tracker: https://github.com/idonuntius/request_scope/issues
+
+topics:
+  - devtools
+  - devtools-extension
+  - http
+  - network
+  - inspector
+
+resolution: workspace
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.12.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+# Screenshots used for pub.dev presentation.
+# screenshots:
+#   - description: 'Request list and detail view inside Flutter DevTools.'
+#     path: doc/screenshots/overview.png
+#   - description: 'Pretty JSON viewer with copy as cURL action.'
+#     path: doc/screenshots/detail.png

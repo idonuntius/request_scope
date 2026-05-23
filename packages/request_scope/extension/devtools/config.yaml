@@ -1,0 +1,5 @@
+name: request_scope
+issueTracker: https://github.com/idonuntius/request_scope/issues
+version: 0.1.0
+materialIconCodePoint: '0xe322'
+requiresConnection: true
