@@ -2,6 +2,7 @@
 .dart_tool/
 .packages
 build/
+!/packages/request_scope/extension/devtools/build/
 .flutter-plugins
 .flutter-plugins-dependencies
 pubspec.lock
