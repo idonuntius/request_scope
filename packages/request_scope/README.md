@@ -36,14 +36,6 @@ streamed from your app to a dedicated DevTools tab over the VM service.
 - 🚫 **No UI in your app** — production builds can disable the inspector with a
   single config flag.
 
-## Screenshots
-
-<!-- TODO: add screenshots to doc/screenshots and uncomment the `screenshots:`
-section in pubspec.yaml. -->
-
-- `doc/screenshots/overview.png` — request list and detail view inside DevTools.
-- `doc/screenshots/detail.png` — pretty JSON body viewer with cURL action.
-
 ## Install
 
 ```yaml
